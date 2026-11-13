@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { Header } from './header/header';
-import { Footer } from './footer/footer';
+import { ShedaDispositivo } from './sheda-dispositivo/sheda-dispositivo';
+
 
 @Component({
-  imports: [RouterOutlet, Header, Footer ],
+  imports: [RouterOutlet , ShedaDispositivo ],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
